@@ -15,7 +15,7 @@
     <div class='star'>
         <div class='head-box'>
             <div class='head'>
-                <h1> BRIDGE DESIGN WITH ICE CREAM STICKS
+                <h1> 3-D CAR DRIVE
                 </h1>
                 <p>
                     This is an event in which participants will be able to know more about this
@@ -37,7 +37,7 @@
                             <label>Name</label><br><br>
                             <input type="text" name="Name" placeholder='Name' required><br><br>
                             <label>Phone</label><br><br>
-                            <input type="number" name="Phone" placeholder='Phone Number' required><br>
+                            <input type="number"  onchange="if (this.value.length != (10 || 12)) swal('Info!', 'The typed phone number is Wrong 😯', 'info') "  name="Phone" placeholder='Phone Number' required><br>
                         </div>
                         <div class='form-field'>
                             <label>Email</label><br><br>
